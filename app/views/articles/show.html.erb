@@ -1,0 +1,16 @@
+<div class="d-flex">
+  <h1><%= @article.title %></h1>
+  <h2><%= link_to 'edit', edit_article_path %></h2>
+  <h2><%= link_to 'delete', article_path(@article),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></h2>
+</div>
+
+<hr>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id vitae beatae praesentium! Tempore, laudantium veniam est omnis facilis fugiat pariatur accusamus dolorem, voluptatibus aperiam cum quisquam soluta reprehenderit reiciendis possimus.</p>
+
+<h3> <%= @article.content %></h3>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A veniam voluptatibus deleniti ea eligendi dolor ipsa sapiente odio iusto quasi!</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium atque facere nam odio officia maxime itaque natus quia perspiciatis et dolores, omnis, doloremque rerum ratione ipsam dolore quasi quidem illum velit. Alias dolores sit recusandae blanditiis labore quaerat pariatur dolorum eaque libero architecto sed natus commodi illum, odit qui non.</p>
